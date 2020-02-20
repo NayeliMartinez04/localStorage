@@ -1,0 +1,95 @@
+#textDisplay2 {
+  text-align: center;
+}
+
+#contenedor {
+  width: 50%;
+  margin: auto;
+}
+
+#inputGroup {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 40%;
+  height: 40px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border: 2px solid black;
+  padding: 0 5px;
+}
+
+#buttonGroup {
+  text-align: center;
+}
+
+.buttons {
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons:hover {
+  background-color: rgb(238, 83, 109);
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  border: 2px solid black;
+  cursor: pointer;
+  outline: none;
+}
+
+/* scvsvvcs */
+
+@import url(https://fonts.googleapis.com/css?family=Erica+One);
+/* BODY */
+body {
+  background-color: pink;
+}
+::selection {
+  background: transparent;
+}
+
+h1 {
+  cursor: default;
+  position: relative;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: 3100px, auto;
+  display: block;
+
+  -webkit-animation: bounce 0.3s ease infinite alternate;
+
+  font-family: "Erica One", cursive;
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 30px 30px rgba(0, 0, 0, 0.3);
+  }
+}
